@@ -1,0 +1,19 @@
+﻿<Window x:Class="CHECK_INTERNET.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CHECK_INTERNET"
+        mc:Ignorable="d"
+        Title="Check Internet" Height="467" Width="569">
+    <Grid Margin="-60,-48,-60,-48">
+        <Grid.Effect>
+            <DropShadowEffect/>
+        </Grid.Effect>
+        <Grid.Background>
+            <ImageBrush ImageSource="/businessdaily-wifi-internet.jpg" Stretch="Fill"/>
+        </Grid.Background>
+        <Button Content="CHECK THE INTERNET CONNECTION" HorizontalAlignment="Center" VerticalAlignment="Center" Height="126" Width="302" Click="Button_Click" FontWeight="Bold" FontSize="16" Background="#FF272AD7" BorderThickness="5,5,5,5" BorderBrush="Black"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bigstock-Hi-Speed.jpg" />
+    <None Remove="businessdaily-wifi-internet.jpg" />
+    <None Remove="fast-internet.png" />
+    <None Remove="internet-technology.jpg" />
+    <None Remove="internet.jpg" />
+    <None Remove="ways-to-make.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bigstock-Hi-Speed.jpg" />
+    <Resource Include="businessdaily-wifi-internet.jpg" />
+    <Resource Include="fast-internet.png" />
+    <Resource Include="internet-technology.jpg" />
+    <Resource Include="internet.jpg" />
+    <Resource Include="ways-to-make.jpg" />
+  </ItemGroup>
+
+</Project>
