@@ -1,2 +1,3 @@
 # C_Sharp_Projects
-Some Excersises &amp; Apps With C#
+
+In order for the Projects to run, you need to deactivate your AntiVirus.
